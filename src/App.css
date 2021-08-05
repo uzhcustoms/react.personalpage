@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 60px;
+  background-color: rgb(209, 209, 209);
+  padding: 30px;
+  box-shadow: 0 0 10px black;
+}
+
+h1 {
+  text-align: center;
+  color: #151f22;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.movie-item .title{
+  display: flex;
+  width: 30%;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.movie-item .text{
+  display: flex;
+  width: 500px;
+  justify-content: flex-start;
+  justify-self: flex-start;
+}
